@@ -4,10 +4,12 @@ console.log("Mike's jsnacks")
 // L’utente inserisce due numeri in successione, con due prompt.
 // Il software stampa il maggiore.
 
-const numOne = prompt('Inserisci il primo numero');
-const numTwo = prompt('inserisci il secondo numero');
+const numOne = Number(prompt('Inserisci il primo numero'));
+const numTwo = Number(prompt('inserisci il secondo numero'));
  if (numOne > numTwo){
     console.log(`${numOne} è il maggiore`);
+ } else if (numTwo > numOne) {
+    console.log(`${numTwo} è il maggiore`);
  } else {
-    console.log(`${numTwo20} è il maggiore`);
+   console.log(`I numeri sono uguali`);
  }
