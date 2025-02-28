@@ -1,5 +1,5 @@
 
-# jsancks - blocco 1
+# jsnacks - blocco 1
 
 ## jsnack1
 L’utente inserisce due numeri in successione, con due prompt.
